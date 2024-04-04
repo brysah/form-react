@@ -6,8 +6,8 @@ export function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path='/' element={<Home/>} />
-                <Route path='/sucess' element={<Sucess/>} />
+                <Route exact path='/form-react' element={<Home/>} />
+                <Route path='/form-react/sucess' element={<Sucess/>} />
             </Routes>
         </BrowserRouter>
     )
