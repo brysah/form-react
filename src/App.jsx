@@ -6,7 +6,7 @@ export function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home/>} />
+                <Route exact path='/' element={<Home/>} />
                 <Route path='/sucess' element={<Sucess/>} />
             </Routes>
         </BrowserRouter>
