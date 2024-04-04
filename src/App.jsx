@@ -6,8 +6,8 @@ export function App(){
     return (
         <HashRouter>
             <Routes>
-                <Route exact path='/form-react' element={<Home/>} />
-                <Route path='/form-react/sucess' element={<Sucess/>} />
+                <Route exact path='/' element={<Home/>} />
+                <Route path='/sucess' element={<Sucess/>} />
             </Routes>
         </HashRouter>
     )
