@@ -1,0 +1,70 @@
+.fieldset_container {
+
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: border .3s ease-out;
+
+    legend {
+        margin-left: 16px;
+        transition: all .3s;
+    }
+
+    .input_container {
+        display: flex;
+        align-items: center;
+
+        input {
+            padding: .5em;
+            width: 100%;
+            border: none; 
+        }
+
+        svg {
+            margin-right: 16px;
+            transition: all .3s;
+        }
+    }
+
+    &.focus {
+        border: 2px solid #6abbd6 !important;
+        legend{
+            color: #6abbd6 !important;
+            font-weight: bold;
+        }
+        svg{
+            color: #6abbd6 !important;
+        }
+    }
+
+    &.valid {
+        border: 2px solid green ;
+        legend{
+            color: green;
+            font-weight: bold;
+        }
+        svg{
+            color: green;
+        }
+    }
+
+    &.invalid {
+        border: 2px solid red ;
+        legend{
+            color: red;
+            font-weight: bold;
+        }
+        svg{
+            color: red;
+        }
+    }
+
+    &.unset {
+        border: 1px solid #c7c2c2; 
+    }
+
+
+    
+ 
+    
+
+}

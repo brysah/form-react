@@ -1,0 +1,15 @@
+.message{
+    svg{
+        margin-bottom: 20px; 
+        color: #46c744;
+        font-size: 50px;
+        margin: 0 auto 34px;
+        display: block;
+    }
+    p{
+        color: #46c744;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
