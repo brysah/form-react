@@ -15,7 +15,7 @@ This project is my solution to the [SignUp challenge](https://github.com/1STi/si
 
 1. Clone the repository:
 ```js
-git clone https://github.com/brysah/form-react/.git
+git clone https://github.com/brysah/form-react.git
 ```
 2. Install dependencies:
 ```js
@@ -24,7 +24,7 @@ npm install
 ```
 3. Start the project:
 ```js 
-npm start
+npm run dev
 ```
 
 
