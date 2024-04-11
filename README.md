@@ -19,7 +19,6 @@ git clone https://github.com/brysah/form-react.git
 ```
 2. Install dependencies:
 ```js
-cd form-react
 npm install
 ```
 3. Start the project:
